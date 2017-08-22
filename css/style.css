@@ -366,7 +366,9 @@ a.hbtn {
     /* Create the parallax scrolling effect */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
 }
 
 .subscriber_bg {
