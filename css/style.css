@@ -280,7 +280,7 @@ a.hbtn {
 .design_iten {
     width: 100%;
     margin-bottom: 50px;
-    transition: all 1s linear;
+    transition: all 0.5s linear;
 }
 
 .design_iten:last-child {
@@ -298,7 +298,6 @@ a.hbtn {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 2s linear;
 }
 
 .design_iten:hover {
@@ -314,7 +313,6 @@ a.hbtn {
 .design_txt {
     padding: 0px 2px;
     box-sizing: border-box;
-    transition: all 2s linear;
 }
 
 .design_txt h1 {
