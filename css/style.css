@@ -368,7 +368,6 @@ a.hbtn {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
-    
 }
 
 .subscriber_bg {
@@ -760,10 +759,12 @@ a.next:hover {
     width: 100%;
     vertical-align: middle;
     transition: all 1s ease;
+    border-radius: 12px;
 }
 
 .team_member_img img:hover {
-    transform: translateY(-30px) scale(1.05);
+    transform: translateY(-30px) scale(1.02);
+    border-bottom: 5px solid orange;
 }
 
 .team_member_img img:hover h2.m_name {
