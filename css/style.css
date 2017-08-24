@@ -74,9 +74,9 @@ html {
 }
 
 .menubar {
-    height: 0px;
+    height: auto;
     overflow: hidden;
-    transition: all 2s ease;
+    display: none;
 }
 
 .menu_button:hover {}

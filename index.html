@@ -288,7 +288,7 @@
         </div>
     </div>
     <!--    Footer section End-->
-<!--
+    <!--
     <script>
         var menubar = document.getElementsByClassName("menubar");
         var acc = document.getElementsByClassName("menu_button");
@@ -306,7 +306,16 @@
 
     </script>
 -->
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".menu_button").click(function() {
+                $(".menubar").slideToggle(300);
+            });
+        });
+    </script>
+
+<!--
     <script>
         var menubar = document.getElementsByClassName("menubar");
         console.log(menubar);
@@ -323,6 +332,7 @@
         }
 
     </script>
+-->
 
 
     <!--
